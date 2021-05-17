@@ -1,12 +1,12 @@
 <div class="col-xs-12">
-    <h1>Ventas</h1>
+    <h1>Pedidos</h1>
     <?php if(!empty($this->session->flashdata())): ?>
         <div class="alert alert-<?php echo $this->session->flashdata('clase')?>">
-            <?php echo $this->session->flashdata('mensaje') ?>
+            <?php echo $this->session->flashdata('') ?>
         </div>
     <?php endif; ?>
     <div>
-        <a class="btn btn-success" href="<?php echo base_url() ?>index.php/vender">Nueva <i class="fa fa-plus"></i></a>
+        <a class="btn btn-success" href="<?php echo base_url() ?>index.php/vender">Nuevo Pedido  <i class="fa fa-plus"></i></a>
     </div>
     <br>
     <table class="table table-bordered">

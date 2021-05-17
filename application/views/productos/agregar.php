@@ -2,7 +2,7 @@
 	<h1>Nuevo producto</h1>
 	<?php if(!empty($this->session->flashdata())): ?>
 		<div class="alert alert-<?php echo $this->session->flashdata('clase')?>">
-			<?php echo $this->session->flashdata('mensaje') ?>
+			<?php echo $this->session->flashdata('') ?>
 		</div>
 	<?php endif; ?>
 	<form method="post" action="<?php echo base_url() ?>index.php/productos/guardar">

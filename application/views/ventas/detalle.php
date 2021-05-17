@@ -1,9 +1,9 @@
 <div class="col-xs-12">
-    <a class="btn btn-info" href="<?php echo base_url() ?>index.php/ventas">Ver todas las ventas</a>
-    <h1>Detalles de la venta #<?php echo $venta->detalles->id; ?></h1>
+    <a class="btn btn-info" href="<?php echo base_url() ?>index.php/ventas">Ver todos los pedidos</a>
+    <h1>Detalles del Pedido #<?php echo $venta->detalles->id; ?></h1>
     <h4>Total: <span class="label label-success"><?php echo $venta->detalles->total ?></span></h4>
     <h4>Fecha: <span class="label label-primary"><?php echo $venta->detalles->fecha ?></span></h4>
-    <h2>Productos vendidos</h2>
+    <h2>Productos en el pedido</h2>
     <div class="table-responsive">
         <table class="table table-bordered">
             <thead>
